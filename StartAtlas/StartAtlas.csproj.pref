@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="StartAtlas.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="StartAtlas.rxtst" />
+    <Element value="Recording1.rxrec" />
+    <Element value="StartAtlasRepository.rxrep" />
+    <Element value="Recording1.UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="StartAtlas.Recording1.StartApplication()" />
+      <Element value="StartAtlas.Recording1.StartApplication()" />
+    </Array>
+  </Properties>
+</Properties>

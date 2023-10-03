@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bcf3893b-49ac-49ba-9b92-cac2c8a61e6e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="StartAtlas">
+	</codegen>
+	<variables>
+		<var
+		id="4e008a5b-1fff-4625-b093-f2a084761184"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="d6be06a2-d65f-454e-a67a-d097fbcf95e4"
+	name="StartAtlasRepository"
+	relativepath="StartAtlasRepository.rxrep">
+		<codegen
+		classname="StartAtlasRepository"
+		namespace="StartAtlas">
+		</codegen>
+		<rootfolder
+		id="6939d141-4a5f-4394-8886-9514f3fadb82"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

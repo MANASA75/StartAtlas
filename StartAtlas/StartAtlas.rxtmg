@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="StartAtlas"
+      id="32a7e4c4-f7b8-42c9-856f-f0a6c65274fb"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="StartAtlas"
+      id="32a7e4c4-f7b8-42c9-856f-f0a6c65274fb"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StartAtlas</name>
+    </assembly>
+    <members>
+        <member name="T:StartAtlas.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:StartAtlas.CloseAUT.repo">
+            <summary>
+            Holds an instance of the StartAtlasRepository repository.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StartAtlas.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StartAtlas.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StartAtlas.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:StartAtlas.Recording1.repo">
+            <summary>
+            Holds an instance of the StartAtlasRepository repository.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StartAtlas.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StartAtlas.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StartAtlas.StartAtlasRepository">
+            <summary>
+            The class representing the StartAtlasRepository element repository.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the StartAtlasRepository element repository.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.StartAtlasRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepository.TeradyneAtlasInstantiator">
+            <summary>
+            The TeradyneAtlasInstantiator folder.
+            </summary>
+        </member>
+        <member name="T:StartAtlas.StartAtlasRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder">
+            <summary>
+            The TeradyneAtlasInstantiatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TeradyneAtlasInstantiator  folder.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.SomeList">
+            <summary>
+            The SomeList item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.SomeListInfo">
+            <summary>
+            The SomeList item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.btnStartStop">
+            <summary>
+            The btnStartStop item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.btnStartStopInfo">
+            <summary>
+            The btnStartStop item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.AtlasInstantiatorStatus">
+            <summary>
+            The AtlasInstantiatorStatus item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.AtlasInstantiatorStatusInfo">
+            <summary>
+            The AtlasInstantiatorStatus item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.InstantiatorMessageBox">
+            <summary>
+            The InstantiatorMessageBox item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.InstantiatorMessageBoxInfo">
+            <summary>
+            The InstantiatorMessageBox item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.SomeListItem">
+            <summary>
+            The SomeListItem item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.SomeListItemInfo">
+            <summary>
+            The SomeListItem item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.BtnStartAtlasServices">
+            <summary>
+            The BtnStartAtlasServices item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.BtnStartAtlasServicesInfo">
+            <summary>
+            The BtnStartAtlasServices item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.StopServices">
+            <summary>
+            The StopServices item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.StopServicesInfo">
+            <summary>
+            The StopServices item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.StartServices">
+            <summary>
+            The StartServices item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.StartServicesInfo">
+            <summary>
+            The StartServices item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.STARTSERVICES1">
+            <summary>
+            The STARTSERVICES1 item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.STARTSERVICES1Info">
+            <summary>
+            The STARTSERVICES1 item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.TeradyneAtlasInstantiatorAppFolder.MessageListBox">
+            <summary>
+            The MessageListBox folder.
+            </summary>
+        </member>
+        <member name="T:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder">
+            <summary>
+            The MessageListBoxFolder folder.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MessageListBox  folder.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.TheTitanHostPCInstantiatorHasBeenI">
+            <summary>
+            The TheTitanHostPCInstantiatorHasBeenI item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.TheTitanHostPCInstantiatorHasBeenIInfo">
+            <summary>
+            The TheTitanHostPCInstantiatorHasBeenI item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.Info">
+            <summary>
+            The Info item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.InfoInfo">
+            <summary>
+            The Info item info.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.TheTitanHostPCInstantiatorHasBeenI1">
+            <summary>
+            The TheTitanHostPCInstantiatorHasBeenI1 item.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAtlasRepositoryFolders.MessageListBoxFolder.TheTitanHostPCInstantiatorHasBeenI1Info">
+            <summary>
+            The TheTitanHostPCInstantiatorHasBeenI1 item info.
+            </summary>
+        </member>
+        <member name="T:StartAtlas.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:StartAtlas.StartAUT.repo">
+            <summary>
+            Holds an instance of the StartAtlasRepository repository.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:StartAtlas.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StartAtlas.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StartAtlas.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StartAtlas.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

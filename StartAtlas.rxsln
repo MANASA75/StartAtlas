@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 10.7.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartAtlas", "StartAtlas\StartAtlas.csproj", "{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA0AEAF5-CCC6-4EB9-9EC1-EEB9FA58007B}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}.Debug|x86.Build.0 = Debug|x86
+		{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}.Debug|x86.ActiveCfg = Debug|x86
+		{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}.Release|x86.Build.0 = Release|x86
+		{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

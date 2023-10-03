@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="13c644cd-b832-405b-8c16-502976853d6d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="StartAtlas">
+	</codegen>
+	<variables>
+		<var
+		id="655a1e90-1768-4136-93dc-3490550ea63b"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="d6be06a2-d65f-454e-a67a-d097fbcf95e4"
+	name="StartAtlasRepository"
+	relativepath="StartAtlasRepository.rxrep">
+		<codegen
+		classname="StartAtlasRepository"
+		namespace="StartAtlas">
+		</codegen>
+		<rootfolder
+		id="6939d141-4a5f-4394-8886-9514f3fadb82"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

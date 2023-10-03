@@ -1,0 +1,181 @@
+﻿<repository
+id="d6be06a2-d65f-454e-a67a-d097fbcf95e4"
+name="StartAtlasRepository">
+	<codegen
+	classname="StartAtlasRepository"
+	namespace="StartAtlas">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6939d141-4a5f-4394-8886-9514f3fadb82"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,wpfcorewin32element,wpfcoreelement"
+		capname="form"
+		id="34ead688-f321-4296-95d6-819ffcff1f67"
+		isrooted="True"
+		name="TeradyneAtlasInstantiator"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,wpfcoreelement"
+			capname="list"
+			id="bda6ce3f-fd6b-4897-b58c-6c01a55016d8"
+			name="SomeList"
+			refimgid="c26c204f-4200-438e-842b-783361161f2e"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']/list[1]
+			</item>
+			<item
+			addcaps="button,wpfcoreelement"
+			capname="button"
+			id="2d945108-d1d7-4f9a-8736-be4288f6811d"
+			name="btnStartStop"
+			refimgid="05da08cf-7423-44ee-936c-23cec760ba32"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']/element//button[@automationid='StartStopButton']
+			</item>
+			<item
+			addcaps="text,wpfcoreelement"
+			capname="text"
+			id="37795265-d30f-4255-b3ce-ea9bad0386eb"
+			name="AtlasInstantiatorStatus"
+			refimgid="0b01d9a6-936d-4a2c-b01b-49d095b586e7"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']/element//text[@automationid='Instantiator_StatusField']
+			</item>
+			<item
+			addcaps="list,wpfcoreelement"
+			capname="list"
+			id="95ced37a-0b73-4cc1-ac2f-5274ff63bbe7"
+			name="InstantiatorMessageBox"
+			refimgid="eaf4b800-d3b0-4ac1-bc96-45bf6a38b857"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']/element//list[@automationid='Instantiator_MessageListBox']
+			</item>
+			<item
+			addcaps="listitem,wpfcoreelement"
+			capname="listitem"
+			id="960ca4fa-dd64-45d6-8fab-d0d619ad75a6"
+			name="SomeListItem"
+			refimgid="41d2eaa6-9cf7-4541-b81a-a3873c5f4324"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']//element//list[@automationid='MessageListBox']//element[@automationid='Border']//listitem[@index='0']
+			</item>
+			<folder
+			addcaps="list,wpfcoreelement"
+			capname="list"
+			id="fd8816cf-1a4b-47bb-9b5e-8d6d85a8e476"
+			isrooted="True"
+			name="MessageListBox"
+			refpath="/form[@automationid='']/element/container[@caption='']/list[@automationid='MessageListBox']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,wpfcoreelement"
+				capname="text"
+				id="5410c154-5280-43c9-aad2-71098fcfd662"
+				name="TheTitanHostPCInstantiatorHasBeenI"
+				refimgid="c2a51345-51fe-4b5a-ab58-63e0e43dbf3c"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@windowtext='Teradyne Atlas Instantiator']/element/?/?/list[@automationid='MessageListBox']//listitem[@index='0']/container[@automationid='RootGrid']//container[@automationid='ContentPresenter']//text[@caption~'.*']
+				</item>
+				<item
+				addcaps="text,wpfcoreelement"
+				capname="text"
+				id="2b24de5a-586a-42b9-ba82-46e4ef616ab6"
+				name="Info"
+				refimgid="77479ed2-060e-43af-b677-290b2bd14a8c"
+				refpath="/form[@automationid='']/element/container[@caption='']/list[@automationid='MessageListBox']/element[@automationid='Border']/container[@caption='']/container[@caption='']/container[@caption='']/listitem[@index='0']/container[@automationid='RootGrid']/container[@caption='']/container[@automationid='ContentPresenter']/container[@caption='']/text[@caption='Info']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@windowtext='Teradyne Atlas Instantiator']/element/?/?/list[@automationid='MessageListBox']/element[@automationid='Border']//listitem[@index='0']/container[@automationid='RootGrid']/?/?/container[@automationid='ContentPresenter']/?/?/text[@caption='Info']
+				</item>
+				<item
+				addcaps="text,wpfcoreelement"
+				capname="text"
+				id="d9c94897-dca2-43a4-a098-7e5577b83919"
+				name="TheTitanHostPCInstantiatorHasBeenI1"
+				refimgid="4b2f5c2c-c185-4f5d-9667-df7f93bb93ae"
+				refpath="/form[@automationid='']/element/container[@caption='']/list[@automationid='MessageListBox']/element[@automationid='Border']/container[@caption='']/container[@caption='']/container[@caption='']/listitem[@index='0']/container[@automationid='RootGrid']/container[@caption='']/container[@automationid='ContentPresenter']/container[@caption='']/text[@caption='The Titan HostPC Instantiator has been instantiated.']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@windowtext='Teradyne Atlas Instantiator']/element/?/?/list[@automationid='MessageListBox']/element[@automationid='Border']//listitem[@index='0']/container[@automationid='RootGrid']/?/?/container[@automationid='ContentPresenter']/?/?/text[@caption&gt;'The Titan HostPC Instantiator']
+				</item>
+				<basepath>
+					/form[@windowtext='Teradyne Atlas Instantiator']/element/?/?/list[@automationid='MessageListBox']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,wpfcoreelement"
+			capname="button"
+			id="9d68d37f-f148-45a2-908d-b18dcdabda69"
+			name="BtnStartAtlasServices"
+			refimgid="f497711d-84e9-453e-91e0-db56db724cf3"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']//button[@text='Start Atlas Services']
+			</item>
+			<item
+			addcaps="button,wpfcoreelement"
+			capname="button"
+			id="dce38917-f1c2-455a-84d6-089fc7f8d429"
+			name="StopServices"
+			refimgid="efb4f202-790e-462b-927b-9bcac117f197"
+			robustPath=""
+			searchtimeout="50000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']//button[@text='Stop Services']
+			</item>
+			<item
+			addcaps="button,wpfcoreelement"
+			capname="button"
+			id="45ac2a08-c993-42ce-bf09-2d73409ea17e"
+			name="StartServices"
+			refimgid="2c49ab45-1be6-40e8-a83b-69c5192930ee"
+			refpath="/form[@automationid='']/element/container[@caption='']/button[@text='Start Services']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']/element/?/?/button[@text='Start Services']
+			</item>
+			<item
+			addcaps="text,wpfcoreelement"
+			capname="text"
+			id="f548c48b-7827-4c90-b3db-98b92e795838"
+			name="STARTSERVICES1"
+			refimgid="0f30123f-6c22-4071-9005-fd7aaf1a4854"
+			refpath="/form[@automationid='']/element/container/button/container/container/container/container/text[@caption='START SERVICES']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@windowtext='Teradyne Atlas Instantiator']//button[@text='Start Services']/?/?/container[@automationid='PART_ContentPresenter']/?/?/container[@automationid='PART_ContentPresenter']/text[@caption='START SERVICES']
+			</item>
+			<basepath>
+				/form[@windowtext='Teradyne Atlas Instantiator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGsSURBVDhPxZK9S1tRGMbPR5roIFeFWBoIsUgT
+yAdZTMSA1TgEF5euRWgp1UUTBAebJXYqFIQ26FD8qIOiLYq6OCh0KJ36B7Rr946FUurw6zneXOMl
+iujSCw+X932f87zPc+4V5uEiAloiZbMOtYXI5yOUnyd5/SLJ0ssUbxeydHVoj+MSlZKoxkGtNcWc
+Q72W4WhjkN03SeaeRHhU6uHr4UN+fBoi7KimgLcxGLrD5ESckw8jbH+p8vTVJNHRIiJWIjfcz8G7
+HPXqA3ocl392ztvan+1mczHDQrmP6N0guvSM9vp3xNZv8qt7TFfHGEq5tqX0xRSkEw78fMzxZoHZ
+qRQriwU+L/dSWNlG7PzhXiJNwJKV8kU9Fwh3B5mf6qM2E6cyEaU40EmnNsOZdcTBqYmQRRme0ue5
+/QItUI0brhiB/VNkLN3oXyFg89jPZ6ENVEAj7bDsObhGoAWeg/8vUHl/dgfiftat5Y0drBmBv7dw
+YH4UMV5BLH9DfPyFnNtBROKNWYuIr2giMYCIG8QyiMwIwgm7fSvu5/qK2+DSpmvV3oXNbd+tmw0E
+/wAtWE6p7nBW1QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

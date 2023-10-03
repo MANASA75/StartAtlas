@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a84abb0b-6db2-40ca-88cb-9c7d97dbd482"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="StartAtlas">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Recording1"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="StartApplication"
+		namespace="StartAtlas"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="e286f147-6dd8-4a77-9313-1779af96fb2c">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="d6be06a2-d65f-454e-a67a-d097fbcf95e4"
+	name="StartAtlasRepository"
+	relativepath="StartAtlasRepository.rxrep">
+		<codegen
+		classname="StartAtlasRepository"
+		namespace="StartAtlas">
+		</codegen>
+		<rootfolder
+		id="6939d141-4a5f-4394-8886-9514f3fadb82"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

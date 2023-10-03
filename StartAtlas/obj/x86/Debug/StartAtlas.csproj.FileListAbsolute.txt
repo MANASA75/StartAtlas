@@ -1,0 +1,12 @@
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.AssemblyReference.cache
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.CoreCompileInputs.cache
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.rxtmg
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.rxtst
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.exe.config
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.xml
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.exe
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.pdb
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.CopyComplete
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.exe
+C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.pdb
