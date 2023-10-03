@@ -10,3 +10,15 @@ C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\
 C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.CopyComplete
 C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.exe
 C:\Users\CPC\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.pdb
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.rxtmg
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.rxtst
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.exe.config
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.xml
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.exe
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\StartAtlas.pdb
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.AssemblyReference.cache
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.CoreCompileInputs.cache
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.csproj.CopyComplete
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.exe
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\StartAtlas\StartAtlas\obj\x86\Debug\StartAtlas.pdb
