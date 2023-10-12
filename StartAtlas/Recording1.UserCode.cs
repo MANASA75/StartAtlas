@@ -35,9 +35,9 @@ namespace StartAtlas
 
         public void StartApplication()
         {
-        	string InstantiatorExe = @"C:\Teradyne\Atlas\TitanHP\Bin\Teradyne.Slt.Instantiator.exe";
+        	string InstantiatorExe = @"C:\Windows\System32\notepad.exe";
         	
-            Report.Info("User", $"ATLAS Instantiaor not running. Starting {InstantiatorExe} ...");
+           // Report.Info("User", $"ATLAS Instantiaor not running. Starting {InstantiatorExe} ...");
     		if(System.IO.File.Exists(InstantiatorExe))
 			{
     			Host.Local.RunApplication(InstantiatorExe, "", "", false);

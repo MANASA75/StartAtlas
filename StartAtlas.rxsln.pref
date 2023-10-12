@@ -5,11 +5,8 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}</string>
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-    </ArrayOfString>
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution StartAtlas[StartAtlas[Reports[]]]]&#xD;&#xA;Solution StartAtlas\StartAtlas\StartAtlas.rxtst&#xD;&#xA;Solution StartAtlas" />
+  <ProjectBrowserState value="" />
   <StartupProject value="{D679C7B2-0A6B-44F8-930F-924A82FF6A0D}" />
 </Properties>
