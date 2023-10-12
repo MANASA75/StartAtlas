@@ -39,6 +39,7 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="756c72bc-e5b0-4025-a215-5d39ca5a52e9"
 			name="CloseAUT"
 			ref="bcf3893b-49ac-49ba-9b92-cac2c8a61e6e"
@@ -79,6 +80,7 @@
 			includeimageschecked="False"
 			includerecordingschecked="False"
 			junitreport="False"
+			junitreportshowerrafterstd="True"
 			name="StartAtlas"
 			overwritefilechecked="False"
 			reportcompress="False"
